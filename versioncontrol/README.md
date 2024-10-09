@@ -2,11 +2,11 @@
 
 ### Instructions
 - Read step 1 to get a high-level intro to version control. Don't overthink it.
-- OPTIONAL (but super useful) configure your terminal or IDE to show the git status [instructions here](GITTERMINAL.md).
+- OPTIONAL (but super useful) configure your terminal or IDE to show the git status - [instructions here](GITTERMINAL.md).
 - Follow the instructions in steps 2-6. 
-    - They are meant to make you look up some new commands - when you see the emoji 🔍, it will be a hyperlink to helpful resources on commands.
-    - In general, *your computer already has all the answers you need* - read the outputs of the commands carefully.
-- Check the following resources after you are done for additional reading and reviewing:
+    - They are meant to make you look up some new commands - when you see the emoji 🔍, it will be a hyperlink to helpful resources on commands - click it!
+    - In general, *your computer already has all the answers you need* - read the outputs of all commands carefully.
+- Check the following resources after you are done for additional reading and prep if you'd like:
     - https://www.atlassian.com/git/tutorials/what-is-version-control
 
 1. **Introduction to Version Control**:
@@ -21,7 +21,7 @@
 
    - **Step 1: Open Your Terminal**
 
-   - **Step 2: Install Git** (check installation status first [🔍](https://www.google.com/search?q=--version+vs+--which))
+   - **Step 2: Install Git** (check installation status first [🔍](https://www.google.com/search?q=what+is+the+--version+option))
 
      ```sh
      git --version
@@ -87,7 +87,7 @@
 
    - **What is a Remote?** A remote is a version of your project that is hosted on another server, such as GitHub, which allows you to collaborate with others. Git is a distributed version control system (VCS), meaning every developer has a full copy of the repository on their machine. By default, your local Git repository doesn't know about any remotes until you explicitly add them.
 
-   - **Step 1: Create a Remote Repository**: Go to GitHub and create a new repository. This will be your first example of a remote repository.
+   - **Step 1: Create a Remote Repository**: Go to GitHub and create a new repository [🔍](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories). This will be your first example of a remote repository.
 
    ```sh
    git remote add origin https://github.com/yourusername/my_first_project.git
