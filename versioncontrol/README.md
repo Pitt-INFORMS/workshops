@@ -1,4 +1,13 @@
-**Git Preparation Assignment**
+# Git Pre-Workshop Assignment
+
+### Instructions
+- Read step 1 to get a high-level intro to version control. Don't overthink it.
+- OPTIONAL (but super useful) configure your terminal or IDE to show the git status [instructions here](GITTERMINAL.md).
+- Follow the instructions in steps 2-6. 
+    - They are meant to make you look up some new commands - when you see the emoji 🔍, it will be a hyperlink to helpful resources on commands.
+    - In general, *your computer already has all the answers you need* - read the outputs of the commands carefully.
+- Check the following resources after you are done for additional reading and reviewing:
+    - https://www.atlassian.com/git/tutorials/what-is-version-control
 
 1. **Introduction to Version Control**:
 
@@ -12,7 +21,7 @@
 
    - **Step 1: Open Your Terminal**
 
-   - **Step 2: Install Git** (check installation status first)
+   - **Step 2: Install Git** (check installation status first [🔍](https://www.google.com/search?q=--version+vs+--which))
 
      ```sh
      git --version
@@ -36,9 +45,7 @@
 
 3. **Making Your First Commits**:
 
-   - **Step 1: Initialize a Repository**
-
-     - Navigate to the folder where you want to create your project and initialize a Git repository there.
+   - **Step 1: Initialize a Repository** [🔍](https://www.google.com/search?q=basic+file+navigation+in+terminal)
 
      ```sh
      mkdir my_first_project
@@ -46,9 +53,7 @@
      git init
      ```
 
-   - **Step 2: Add Files and Make Your First Commit**
-
-     - Create a new file, add some content, and commit the changes.
+   - **Step 2: Add Files and Make Your First Commit** [🔍](https://www.google.com/search?q=what+is+the+echo+command+terminal)
 
      ```sh
      echo "Hello, Git!" > README.txt
@@ -56,7 +61,7 @@
      git commit -m "Initial commit: added README"
      ```
 
-   - **Step 3: Explore and Mess Around** 🔍
+   - **Step 3: Explore and Mess Around** [🔍](https://www.google.com/search?q=how+to+use+git+log)
 
      ```sh
      echo "Updated content." >> README.txt
