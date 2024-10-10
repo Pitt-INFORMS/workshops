@@ -45,6 +45,13 @@
 
 3. **Making Your First Commits**:
 
+   - **CRUCIAL: Your new best friend: `git status`** [🔍](https://github.com/git-guides/git-status)
+       - Try running it *before* step 1 - you will get an error [🔍](https://www.gitkraken.com/learn/git/tutorials/what-is-a-git-repository)
+       - After **Step 1**, you should get in the habit of running it all the time to see whats going on
+       - Shows the current status:
+            - What is in the staging area
+            - What is tracked or untracked
+
    - **Step 1: Initialize a Repository** [🔍](https://www.google.com/search?q=basic+file+navigation+in+terminal)
 
      ```sh
